@@ -98,7 +98,7 @@ class Generals(object):
 
             if msg[0] == "error_user_id":
                 raise ValueError("Already in game")
-           elif msg[0]== 'pre_game_start':
+            elif msg[0]== 'pre_game_start':
                 logging.info("Game Prepare to Start")
             elif msg[0] == "game_start":
                 logging.info("Game info: {}".format(msg[1]))
